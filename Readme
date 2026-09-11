@@ -1,0 +1,37 @@
+# VLAN Segmentation Lab
+
+## Objective
+Demonstrate how VLANs work and configure basic VLAN segmentation on a single switch.
+
+## Setup
+1x Cisco 2960T-24 switch
+4 PCs (PC0–PC3)
+VLAN 2 and VLAN 3 created on the switch, alongside the default VLAN
+
+## What I did
+1. Built a topology connecting 4 PCs to the switch
+2. Created VLAN 2 and VLAN 3 in the VLAN database
+3. Assigned ports to their respective VLANs
+4. Verified connectivity using the `ping` command
+
+## Port assignments
+
+| Port | VLAN |
+|------|------|
+| FastEthernet0/1 | 2 |
+| FastEthernet0/2 | 2 |
+| FastEthernet0/3 | 3 |
+| FastEthernet0/4 | 3 |
+
+Ports were set to Access mode and manually assigned to their VLAN.
+
+## Verification
+
+**Same VLAN ping (PC0 → 10.0.0.2):**
+0% packet loss, average RTT ~8ms
+
+**Cross-VLAN ping (PC0 → 10.0.0.3):**
+100% packet loss — request timed out
+
+## Takeaway
+VLANs segment broadcast domains at Layer 2. Hosts in different VLANs can't communicate without a Layer 3 device (router or L3 switch) to route between them. This confirms VLAN isolation is working as configured.
