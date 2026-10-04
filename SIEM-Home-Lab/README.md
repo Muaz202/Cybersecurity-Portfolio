@@ -51,7 +51,7 @@ Wazuh detected the change and generated a log.
 ![Log generation](screenshots/07-log-generation.png)
 
 ### 8. Log analysis
-I opened the log to analyze it. It shows details such as the **user name**, the **file name**, [add other fields you saw: e.g. file path, event type, timestamp].
+I opened the log to analyze it. It shows details such as the **user name**, the **file name**, **file path**.
 
 ![Log analysis](screenshots/08-log-analysis.png)
 
