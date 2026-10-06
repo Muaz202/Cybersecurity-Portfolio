@@ -5,6 +5,7 @@ Hi, I'm Muaz. I'm working towards a SOC Analyst role and I'm building hands-on p
 ## Projects
 
 | SIEM Home Lab (Wazuh) | A Windows agent sending logs to a Wazuh manager on Ubuntu. I tested it by creating a file and analyzing the log it generated.
+
 | VLAN Network Segmentation | Separating a network into VLANs and testing the traffic between them.
 
 ## Currently working on
