@@ -21,6 +21,7 @@ All traffic goes through the firewall first. The firewall inspects every request
 | Vulnerable website | DVWA (Damn Vulnerable Web Application) |
 | Firewall | SafeLine WAF (free edition, runs in Docker) |
 | Website name | `dvwa.local` |
+
 **Ubuntu IP**
 
 ![Ubuntu IP](screenshots/ubuntu-ip.png)
