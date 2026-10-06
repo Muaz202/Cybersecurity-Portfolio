@@ -38,7 +38,7 @@ I set up two virtual machines, Kali (the attacker) and Ubuntu (the target). On U
 *The web server is running and reachable from Kali.*
 
 ![DVWA setup page](screenshots/dvwa-setup-page.png)
-*DVWA setup page. The red items only affect exercises I didn't use.*
+*DVWA setup page.*
 
 ## Step 2: Attack the website with no firewall
 
