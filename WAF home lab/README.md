@@ -2,8 +2,6 @@
 
 In this project I built a website that is deliberately full of security holes, attacked it with SQL injection from Kali Linux, then put a web application firewall (**SafeLine WAF**) in front of it and showed the same attack getting blocked.
 
-> \*\*Disclaimer:\*\* For education only. The test website is intentionally vulnerable. Run it only on a private network you own, never on the internet.
-
 ## How it works
 
 ```
