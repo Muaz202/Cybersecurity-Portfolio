@@ -13,15 +13,14 @@ All traffic goes through the firewall first. The firewall inspects every request
 
 ## The lab setup
 
-|What I used|
-
-|Virtualization|VMware Workstation, with both machines on the same network|
-|Attacker machine|Kali Linux|
-|Target machine|Ubuntu (4 GB RAM, 2 CPUs, 60 GB disk)|
-|Vulnerable website|DVWA (Damn Vulnerable Web Application)|
-|Firewall|SafeLine WAF (free edition, runs in Docker)|
-|Website name|`dvwa.local`|
-
+| Part | What I used |
+|---|---|
+| Virtualization | VMware Workstation, with both machines on the same network |
+| Attacker machine | Kali Linux |
+| Target machine | Ubuntu (4 GB RAM, 2 CPUs, 60 GB disk) |
+| Vulnerable website | DVWA (Damn Vulnerable Web Application) |
+| Firewall | SafeLine WAF (free edition, runs in Docker) |
+| Website name | `dvwa.local` |
 **Ubuntu IP**
 
 ![Ubuntu IP](screenshots/ubuntu-ip.png)
