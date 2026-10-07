@@ -83,16 +83,6 @@ Kali (attacker)  --->  Apache web server  --->  Wazuh agent  --->  Wazuh manager
 | Two `ossec.conf` files on Windows | Only the one in the agent's install folder is live, so I edited that one |
 | Wazuh and my WAF lab fought over port 443 | I ran only one of them at a time |
 
-## What I learned
-
-- A SIEM can do more than collect logs: with **active response** it can act on what it sees.
-- Threat intelligence lists turn a raw log line into a meaningful alert.
-- Wazuh only reads its configuration at startup, so changes need a restart.
-- Timed blocks keep a lab (and real networks) from locking out legitimate users for good.
-
-## Next steps
-
-Feed the list from a real threat-intelligence source, add more detection rules (brute force, web attacks), and combine this with my [SafeLine WAF lab](../WAF%20home%20lab/).
 
 ## Credits
 
