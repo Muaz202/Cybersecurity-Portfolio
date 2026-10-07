@@ -2,8 +2,6 @@
 
 I built a small SIEM lab where **Wazuh** watches a web server's logs and **automatically blocks** any visitor whose IP is on a threat-actor list. Kali Linux plays the attacker. When Kali tried to reach the web server, Wazuh recognised its IP and blocked it for 60 seconds.
 
-> **Disclaimer:** For education only. Run this on a private lab network you own.
-
 ## How it works
 
 ```
