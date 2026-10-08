@@ -11,7 +11,7 @@ Wazuh ships with default rules that flag individual failed SSH logins, but a sin
 - **Wazuh Manager** — Ubuntu VM, monitoring its own system logs (`auth.log`)
 - **Target** — the same Ubuntu VM, running OpenSSH server with a test account
 - **Attacker** — Kali Linux VM, running Hydra to brute-force the SSH login
-- All three VMs on the same internal network (VirtualBox)
+- Two VMs on the same internal network (Vmware)
 
 ## What Was Done
 
@@ -64,8 +64,3 @@ The custom rule (ID 100101) triggering at severity level 12, correctly correlati
 
 Default SIEM rules are a starting point, not a finished detection strategy. Real brute-force detection depends on correlating multiple low-severity events into one meaningful, higher-severity alert — which is what distinguishes a usable SOC detection from raw log noise.
 
-## Possible Extensions
-
-- Auto-block the attacking IP when the custom rule fires (active response)
-- Extend the same detection logic to RDP on the Windows endpoint
-- Forward high-severity alerts to Slack/email for real-time notification
