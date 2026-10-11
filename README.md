@@ -5,24 +5,35 @@ Hi, I'm Muaz. I'm working towards a SOC Analyst role and I'm building hands-on p
 
 | SIEM Home Lab (Wazuh) | A Windows agent sending logs to a Wazuh manager on Ubuntu. I tested it by creating a file and analyzing the log it generated.
 
-| VLAN Network Segmentation | Separating a network into VLANs and testing the traffic between them.
-
 | WAF Home Lab (SafeLine) | A Kali Linux machine attacking a vulnerable website (DVWA) hosted on Ubuntu. I ran an SQL injection that worked, then put SafeLine WAF in front as a reverse proxy over HTTPS and confirmed the same attack was blocked and logged.
 
-## Currently working on
-- Adding detection rules and alerts to my Wazuh lab
-- Configuring firewall rules
-- Simulating attacks and investigating them
-- SIEM log filtration
+| SSH Brute Force Attack Simulation | Simulating an SSH brute force attack against a lab machine and analyzing the failed login attempts in the logs.
+
+| Wazuh Active Response (Automated Threat Blocking) | Configuring Wazuh to detect malicious activity and automatically block the attacking IP in real time.
+
+
+## Currently Working On
+- Building custom detection rules and alerts in my Wazuh SIEM lab
+- Configuring and testing firewall rules to block malicious traffic
+- Simulating attacks and investigating them through log analysis
+- Filtering and refining SIEM logs to reduce noise and improve detection
 
 ## Skills
+- SIEM deployment and administration
 - Log collection and analysis
+- Custom detection rules and correlation rules
+- Alert investigation and attack simulation
+- Active response
+- Threat intelligence IP lists
+- SSH brute-force attack simulation and detection
 - File integrity monitoring
-- Network segmentation (VLANs)
 - Agent configuration
+- Web server log monitoring
+- Web application firewall setup
+- Firewall deployment and basic firewall configuration
+- Network segmentation
+- Virtual lab setup
 - Basic troubleshooting of connectivity issues
-- Firewall Deployment
-- Configuring Basic Firwall
 
 ## Tools
 - **SIEM:** Wazuh
