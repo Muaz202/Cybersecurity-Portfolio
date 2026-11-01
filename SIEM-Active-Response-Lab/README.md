@@ -81,9 +81,3 @@ Kali (attacker)  --->  Apache web server  --->  Wazuh agent  --->  Wazuh manager
 | Two `ossec.conf` files on Windows | Only the one in the agent's install folder is live, so I edited that one |
 | Wazuh and my WAF lab fought over port 443 | I ran only one of them at a time |
 
-
-## Credits
-
-Adapted from the Wazuh documentation's active response use case for blocking known malicious actors.
-
-**Author:** [Your Name] | [LinkedIn / GitHub link]
